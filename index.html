@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Week App</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./assets/css/style.css">  
+<script src="./assets/js/script.js" defer></script>
+</head>
+<body>
+  <div class="card">
+    <div class="card-header">
+      <h1>Weather Week App</h1>
+    </div>
+    <div class="weather"><h2>
+      The Weather For:
+    </h2>
+      <h2 class="current-city">----City----</h2>
+      <h3 class="current-weather-description">Type in your city below <br> to get the weather</h3>
+      <img src="" alt="" class="current-weather-icon">
+      <h3 class="current-temp">----Tempature-----</h3>
+      <h3 class="current-humidity">----Humidity-----</h3>
+      <h3 class="current-wind">----Wind----</h3>
+    </div>
+    <div class="search">
+      <label for="city">Location:</label>
+    <br>
+    <div>
+      <input type="text" class="search-bar" id="city" autofocus="true" placeholder="Search for a city...">
+      <button type="button" class="search-button" id="getWeather" >Search</button>
+    </div>
+    
+</div>
+<div>
+  <div class="history-lst">
+    <h3>History</h3>
+    <ul class="history-ul">
+      <li class="history-li">----City----</li>
+    </ul>
+    <div>
+      <button type="button" class="clear-history-button" id="clearHistory">Clear History</button>
+    </div>
+  </div>
+</div>
+  </div>
+
+</body>
+</html>
