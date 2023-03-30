@@ -1,6 +1,8 @@
 # Weather-Week-App
 A weather forecast app that collects data from a server-side OpenWeather One Call API to retrieve weather data from cities around the world.
 
+## Live Deployed website hosted by github pages:
+[Weather week app website link](https://www.niksharpkings.github.io/Weather-Week-App/)
 
 #language JavaScript, css, html. api used from https://openweathermap.org/api
 
